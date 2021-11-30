@@ -1,0 +1,16 @@
+<table>
+    <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Course</th>
+    </tr>
+    <% students.forEach((student) =>
+    { %>
+    <tr>
+    <td><%= student.student_id %></td>
+    <td><%= student.student_name %></td>
+    <td><%= student.student_course %></td>
+    </tr>
+    <% }) %>
+</table>
+    
